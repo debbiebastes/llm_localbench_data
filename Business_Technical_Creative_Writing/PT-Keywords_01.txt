@@ -1,8 +1,5 @@
 Analyze the article provided and identify its key points. From the list of possible tags, choose three tags that best summarize its main topics. These tags should reflect the key technologies, concepts, and themes covered in the article. 
 
-LIST OF POSSIBLE TAGS:
-Serverless, Landing Zone, RDS, DynamoDB, Lambda, Control Tower, Multi-AZ, Read Replica, Disaster Recovery, Data Modeling, Performance, Scalability, Cost Optimization, Security, Governance, Observability, Monitoring, DevOps, Machine Learning, Artificial Intelligence, Software Development
-
 ARTICLE TEXT:
 ```
 The most exciting thing in the Cloud is serverless technology.
@@ -31,5 +28,8 @@ In a future article, we'll deep dive into actually implementing such an architec
 OUTPUT FORMAT:
 - LIST OF TAGS: List the 3 most relevant tags in a simple JSON array.
 - JUSTIFICATION: Explain your answer in a brief, one-sentence explanation.
+
+LIST OF POSSIBLE TAGS:
+Serverless, Landing Zone, RDS, DynamoDB, Lambda, Control Tower, Multi-AZ, Read Replica, Disaster Recovery, Data Modeling, Performance, Scalability, Cost Optimization, Security, Governance, Observability, Monitoring, DevOps, Machine Learning, Artificial Intelligence, Software Development
 
 RESPONSE:
