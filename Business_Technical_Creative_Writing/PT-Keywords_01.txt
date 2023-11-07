@@ -1,4 +1,9 @@
-Analyze the article provided and identify its key points. From the list of possible tags, choose three tags that best summarize its main topics. These tags should reflect the key technologies, concepts, and themes covered in the article. 
+Read the article provided and identify three tags that best summarize its main topics. These tags should reflect the key technologies, concepts, and themes covered in the article. 
+
+Adhere to these steps for consistency and accuracy:
+- If the article mentions several technologies or themes, focus on those that are central to the main argument or purpose of the article.
+- If a technology or theme is mentioned in multiple significant contexts, it should be considered more relevant.
+- Avoid selecting tags that are only briefly mentioned or not central to the article's main points.
 
 ARTICLE TEXT:
 ```

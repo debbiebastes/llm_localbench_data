@@ -5,16 +5,6 @@ Adhere to these steps for consistency and accuracy:
 - If a technology or theme is mentioned in multiple significant contexts, it should be considered more relevant.
 - Avoid selecting tags that are only briefly mentioned or not central to the article's main points.
 
-OUTPUT FORMAT:
-- List the tags in a simple JSON array.
-- Justify the selection of each tag with a brief, one-sentence explanation.
-
-LIST OF POSSIBLE TAGS:
-Here are the possible tags for selection:
-"""
-Serverless, Landing Zone, RDS, DynamoDB, Lambda, Control Tower, Multi-AZ, Read Replica, Disaster Recovery, Data Modeling, Performance, Scalability, Cost Optimization, Security, Governance, Observability, Monitoring, DevOps, Machine Learning, Artificial Intelligence, Software Development
-"""
-
 ARTICLE TEXT:
 ```
 You've probably heard "landing zones" mentioned at some point or another if you work even just tangentially in the Cloud industry. It sounds very important, and even sort-of, kind-of military-ish. So what the heck exactly is a landing zone in the Cloud, and why should you care?
@@ -41,3 +31,12 @@ Wrap up
 This was just a short introduction to landing zones, to get you to understand the spirit of them, why they matter, and some disambiguation between the AWS Landing Zone solution and AWS Control Tower.
 In a future article, we'll go a bit deeper into the design of landing zones and the common problems these design decisions solve.
 ```
+
+OUTPUT FORMAT:
+- LIST OF TAGS: List the 3 most relevant tags in a simple JSON array.
+- JUSTIFICATION: Explain your answer in a brief, one-sentence explanation.
+
+LIST OF POSSIBLE TAGS:
+Serverless, Landing Zone, RDS, DynamoDB, Lambda, Control Tower, Multi-AZ, Read Replica, Disaster Recovery, Data Modeling, Performance, Scalability, Cost Optimization, Security, Governance, Observability, Monitoring, DevOps, Machine Learning, Artificial Intelligence, Software DevelopmentevOps, Machine Learning, Artificial Intelligence, Software Development
+
+RESPONSE:

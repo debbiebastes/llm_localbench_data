@@ -5,16 +5,6 @@ Adhere to these steps for consistency and accuracy:
 - If a technology or theme is mentioned in multiple significant contexts, it should be considered more relevant.
 - Avoid selecting tags that are only briefly mentioned or not central to the article's main points.
 
-OUTPUT FORMAT:
-- List the tags in a simple JSON array.
-- Justify the selection of each tag with a brief, one-sentence explanation.
-
-LIST OF POSSIBLE TAGS:
-Here are the possible tags for selection:
-"""
-Serverless, Landing Zone, RDS, DynamoDB, Lambda, Control Tower, Multi-AZ, Read Replica, Disaster Recovery, Data Modeling, Performance, Scalability, Cost Optimization, Security, Governance, Observability, Monitoring, DevOps, Machine Learning, Artificial Intelligence, Software Development
-"""
-
 ARTICLE TEXT:
 ```
 DynamoDB and its NoSQL brethren are essentially infinitely scalable thanks to the power of horizontal scaling, as I explained in a previous article. (That old article is worth a read if you're interested in finding out how they implemented the magic behind the scenes!)
@@ -64,3 +54,12 @@ Wrap up
 Hierarchical classification data is everywhere. Now you know how to efficiently deal with them in DynamoDB, giving you the best performance and best (lowest) cost.
 Next week, in Part 4 of this series, we'll tackle the issue of breaking up vs. consolidating data - an issue that affects both performance and cost.
 ```
+
+OUTPUT FORMAT:
+- LIST OF TAGS: List the 3 most relevant tags in a simple JSON array.
+- JUSTIFICATION: Explain your answer in a brief, one-sentence explanation.
+
+LIST OF POSSIBLE TAGS:
+Serverless, Landing Zone, RDS, DynamoDB, Lambda, Control Tower, Multi-AZ, Read Replica, Disaster Recovery, Data Modeling, Performance, Scalability, Cost Optimization, Security, Governance, Observability, Monitoring, DevOps, Machine Learning, Artificial Intelligence, Software Development
+
+RESPONSE:
