@@ -9,7 +9,7 @@ OUTPUT FORMAT:
 - List the tags in a simple JSON array.
 - Justify the selection of each tag with a brief, one-sentence explanation.
 
-POSSIBLE TAGS:
+LIST OF POSSIBLE TAGS:
 Here are the possible tags for selection:
 """
 Serverless, Landing Zone, RDS, DynamoDB, Lambda, Control Tower, Multi-AZ, Read Replica, Disaster Recovery, Data Modeling, Performance, Scalability, Cost Optimization, Security, Governance, Observability, Monitoring, DevOps, Machine Learning, Artificial Intelligence, Software Development

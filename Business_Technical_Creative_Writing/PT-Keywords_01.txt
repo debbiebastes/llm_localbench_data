@@ -1,20 +1,7 @@
-Read the article provided and identify three tags that best summarize its main topics. These tags should reflect the key technologies, concepts, and themes covered in the article. 
+Analyze the article provided and identify it's key points. From the list of possible tags, choose three tags that best summarize its main topics. These tags should reflect the key technologies, concepts, and themes covered in the article. 
 
-Adhere to these steps for consistency and accuracy:
-- If the article mentions several technologies or themes, focus on those that are central to the main argument or purpose of the article.
-- If a technology or theme is mentioned in multiple significant contexts, it should be considered more relevant.
-- Avoid selecting tags that are only briefly mentioned or not central to the article's main points.
-
-OUTPUT FORMAT:
-- List the tags in a simple JSON array.
-- Justify the selection of each tag with a brief, one-sentence explanation.
-
-POSSIBLE TAGS:
-Here are the possible tags for selection:
-"""
+LIST OF POSSIBLE TAGS:
 Serverless, Landing Zone, RDS, DynamoDB, Lambda, Control Tower, Multi-AZ, Read Replica, Disaster Recovery, Data Modeling, Performance, Scalability, Cost Optimization, Security, Governance, Observability, Monitoring, DevOps, Machine Learning, Artificial Intelligence, Software Development
-"""
-
 
 ARTICLE TEXT:
 ```
@@ -40,3 +27,9 @@ Wrap up
 This article's goal is to evangelize the wonders of serverless, and I hope that's what you're taking away so far. Hopefully, this motivates you to take a deeper look into serverless, if you aren't a convert yet.
 In a future article, we'll deep dive into actually implementing such an architecture.
 ```
+
+OUTPUT FORMAT:
+- LIST OF TAGS: List the 3 most relevant tags in a simple JSON array.
+- JUSTIFICATION: Explain your answer in a brief, one-sentence explanation.
+
+RESPONSE:
