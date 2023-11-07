@@ -1,16 +1,23 @@
-Analyze the article below and identify the three most relevant tags that best categorize the article's content. Select tags based on the core subjects discussed, the technologies mentioned, and the themes that are central to the article's message.
+Read the article provided and identify three tags that best summarize its main topics. These tags should reflect the key technologies, concepts, and themes covered in the article. 
 
-THE RESPONSE SHOULD HAVE THE FOLLOWING ELEMENTS:
-1. A list of the top 3 most relevant tags in JSON format
-2. Provide an explanation of why each tag is the most relevant
+Adhere to these steps for consistency and accuracy:
+- If the article mentions several technologies or themes, focus on those that are central to the main argument or purpose of the article.
+- If a technology or theme is mentioned in multiple significant contexts, it should be considered more relevant.
+- Avoid selecting tags that are only briefly mentioned or not central to the article's main points.
+
+OUTPUT FORMAT:
+- List the tags in a simple JSON array.
+- Justify the selection of each tag with a brief, one-sentence explanation.
 
 POSSIBLE TAGS:
-
+Here are the possible tags for selection:
+"""
 Serverless, Landing Zone, RDS, DynamoDB, Lambda, Control Tower, Multi-AZ, Read Replica, Disaster Recovery, Data Modeling, Performance, Scalability, Cost Optimization, Security, Governance, Observability, Monitoring, DevOps, Machine Learning, Artificial Intelligence, Software Development
+"""
 
 
 ARTICLE TEXT:
-
+```
 You've probably heard "landing zones" mentioned at some point or another if you work even just tangentially in the Cloud industry. It sounds very important, and even sort-of, kind-of military-ish. So what the heck exactly is a landing zone in the Cloud, and why should you care?
 What does "landing zone" even mean?
 In the military, a landing zone (LZ) is literally a pad or area where aircraft (especially helicopters) can land. If there is an LZ in an area, then you know that everyone being airlifted to the area will land and start at the exact same place - the LZ. It doesn't matter if we're airlifting new personnel, medical supplies, or arms and ammunition. They all land and start their life in that new area on the LZ, where we know it is secure and necessary support operations are in place.
@@ -34,7 +41,4 @@ Post-2019, the recommended way to create landing zones in AWS is AWS Control Tow
 Wrap up
 This was just a short introduction to landing zones, to get you to understand the spirit of them, why they matter, and some disambiguation between the AWS Landing Zone solution and AWS Control Tower.
 In a future article, we'll go a bit deeper into the design of landing zones and the common problems these design decisions solve.
-
-Propose two possible titles for the article above.
-
-Possible titles:
+```

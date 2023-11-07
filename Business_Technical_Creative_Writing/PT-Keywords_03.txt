@@ -1,16 +1,23 @@
-Analyze the article below and identify the three most relevant tags that best categorize the article's content. Select tags based on the core subjects discussed, the technologies mentioned, and the themes that are central to the article's message.
+Read the article provided and identify three tags that best summarize its main topics. These tags should reflect the key technologies, concepts, and themes covered in the article. 
 
-THE RESPONSE SHOULD HAVE THE FOLLOWING ELEMENTS:
-1. A list of the top 3 most relevant tags in JSON format
-2. Provide an explanation of why each tag is the most relevant
+Adhere to these steps for consistency and accuracy:
+- If the article mentions several technologies or themes, focus on those that are central to the main argument or purpose of the article.
+- If a technology or theme is mentioned in multiple significant contexts, it should be considered more relevant.
+- Avoid selecting tags that are only briefly mentioned or not central to the article's main points.
+
+OUTPUT FORMAT:
+- List the tags in a simple JSON array.
+- Justify the selection of each tag with a brief, one-sentence explanation.
 
 POSSIBLE TAGS:
-
+Here are the possible tags for selection:
+"""
 Serverless, Landing Zone, RDS, DynamoDB, Lambda, Control Tower, Multi-AZ, Read Replica, Disaster Recovery, Data Modeling, Performance, Scalability, Cost Optimization, Security, Governance, Observability, Monitoring, DevOps, Machine Learning, Artificial Intelligence, Software Development
+"""
 
 
 ARTICLE TEXT:
-
+```
 There are important differences between RDS Multi-AZ deployments and Read Replicas. This article will clarify the different benefits of each, when you should use them, and even how to use them together.
 Read Replicas
 Benefits of read replicas:
@@ -37,7 +44,4 @@ So, Multi-AZ, Read Replica, or both?
 If you are only looking to solve performance problems: Read Replica.
 If you are only looking to solve data durability and painless failover: Multi-AZ
 If you are managing a highly mission-critical workload that needs both performance scaling and the highest levels of data durability and reliability: Combine Multi-AZ and Read Replicas.
-
-Propose two possible titles for the article above.
-
-Possible titles:
+```

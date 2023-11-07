@@ -1,16 +1,22 @@
-Analyze the article below and identify the three most relevant tags that best categorize the article's content. Select tags based on the core subjects discussed, the technologies mentioned, and the themes that are central to the article's message.
+Read the article provided and identify three tags that best summarize its main topics. These tags should reflect the key technologies, concepts, and themes covered in the article. 
 
-THE RESPONSE SHOULD HAVE THE FOLLOWING ELEMENTS:
-1. A list of the top 3 most relevant tags in JSON format
-2. Provide an explanation of why each tag is the most relevant
+Adhere to these steps for consistency and accuracy:
+- If the article mentions several technologies or themes, focus on those that are central to the main argument or purpose of the article.
+- If a technology or theme is mentioned in multiple significant contexts, it should be considered more relevant.
+- Avoid selecting tags that are only briefly mentioned or not central to the article's main points.
+
+OUTPUT FORMAT:
+- List the tags in a simple JSON array.
+- Justify the selection of each tag with a brief, one-sentence explanation.
 
 POSSIBLE TAGS:
-
+Here are the possible tags for selection:
+"""
 Serverless, Landing Zone, RDS, DynamoDB, Lambda, Control Tower, Multi-AZ, Read Replica, Disaster Recovery, Data Modeling, Performance, Scalability, Cost Optimization, Security, Governance, Observability, Monitoring, DevOps, Machine Learning, Artificial Intelligence, Software Development
-
+"""
 
 ARTICLE TEXT:
-
+```
 DynamoDB and its NoSQL brethren are essentially infinitely scalable thanks to the power of horizontal scaling, as I explained in a previous article. (That old article is worth a read if you're interested in finding out how they implemented the magic behind the scenes!)
 But there's a big caveat there: it scales infinitely and offers blazing performance at any scale if you properly model your data.
 This is part 3 of this series, where we will deal with handling hierarchical classification. (Here are Part 1 and Part 2 if you're new to the series and want to get caught up)
@@ -57,7 +63,4 @@ What else other than inventory could typically use hierarchical classification? 
 Wrap up
 Hierarchical classification data is everywhere. Now you know how to efficiently deal with them in DynamoDB, giving you the best performance and best (lowest) cost.
 Next week, in Part 4 of this series, we'll tackle the issue of breaking up vs. consolidating data - an issue that affects both performance and cost.
-
-Propose two possible titles for the article above.
-
-Possible titles:
+```
