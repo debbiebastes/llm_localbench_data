@@ -1,4 +1,15 @@
-Article Text:
+Analyze the article below and identify the three most relevant tags that best categorize the article's content. Select tags based on the core subjects discussed, the technologies mentioned, and the themes that are central to the article's message.
+
+THE RESPONSE SHOULD HAVE THE FOLLOWING ELEMENTS:
+1. A list of the top 3 most relevant tags in JSON format
+2. Provide an explanation of why each tag is the most relevant
+
+POSSIBLE TAGS:
+
+Serverless, Landing Zone, RDS, DynamoDB, Lambda, Control Tower, Multi-AZ, Read Replica, Disaster Recovery, Data Modeling, Performance, Scalability, Cost Optimization, Security, Governance, Observability, Monitoring, DevOps, Machine Learning, Artificial Intelligence, Software Development
+
+
+ARTICLE TEXT:
 
 There are important differences between RDS Multi-AZ deployments and Read Replicas. This article will clarify the different benefits of each, when you should use them, and even how to use them together.
 Read Replicas
