@@ -1,4 +1,4 @@
-Analyze the article provided and identify it's key points. From the list of possible tags, choose three tags that best summarize its main topics. These tags should reflect the key technologies, concepts, and themes covered in the article. 
+Analyze the article provided and identify its key points. From the list of possible tags, choose three tags that best summarize its main topics. These tags should reflect the key technologies, concepts, and themes covered in the article. 
 
 LIST OF POSSIBLE TAGS:
 Serverless, Landing Zone, RDS, DynamoDB, Lambda, Control Tower, Multi-AZ, Read Replica, Disaster Recovery, Data Modeling, Performance, Scalability, Cost Optimization, Security, Governance, Observability, Monitoring, DevOps, Machine Learning, Artificial Intelligence, Software Development
