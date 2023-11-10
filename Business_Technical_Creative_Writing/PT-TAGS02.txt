@@ -37,6 +37,6 @@ OUTPUT FORMAT:
 - JUSTIFICATION: Explain your answer in a brief, one-sentence explanation.
 
 LIST OF POSSIBLE TAGS:
-Serverless, Landing Zone, RDS, DynamoDB, Lambda, Control Tower, Multi-AZ, Read Replica, Disaster Recovery, Data Modeling, Performance, Scalability, Cost Optimization, Security, Governance, Observability, Monitoring, DevOps, Machine Learning, Artificial Intelligence, Software DevelopmentevOps, Machine Learning, Artificial Intelligence, Software Development
+Serverless, Landing Zone, RDS, DynamoDB, Lambda, Control Tower, Multi-AZ, Read Replica, Disaster Recovery, Data Modeling, Performance, Scalability, Cost Optimization, Security, Governance, Observability, Monitoring, DevOps, Machine Learning, Artificial Intelligence, Software Development
 
 RESPONSE:
